@@ -1,28 +1,38 @@
 ## DOTNET :- React, ASP.DOTNET, MSSQL
 
-# Frontend
+## Techechnology stack 
+ 
+1. Backend    - APS.NET
+2. FrontEnd1  - React 
+3. FrontEnd2  - Angular +10
+
+## Execution commands
+```
+Frontend
 
 npx create-react-app zanaco
 npm install --save bootstrap
 npm install --save reactstrap react react-dom
 
-# Backend
+Backend
 
-Installation PictureDB
 dotnet restore
 dotnet list package
+dotnet watch run
 
-
+```
 # Database
 
-Add-Migration "InitialCreate"
+Add-Migration "InitialCreate" \
 Update-Database
 
 ## Interface UX
 1. No editing zesco
 2. xx
 3. xx
+
  Below are some screens shots from the application
-![ Application Singleton Interface page #1 ](https://github.com/LINOSNCHENA/DOTNET-Exercies/blob/master/UXVIEW/page1.png)
-![ Application Singleton Interface page #2 ](https://github.com/LINOSNCHENA/DOTNET-Exercies/blob/master/UXVIEW/page2.png)
-![ Application Singleton Interface page #3 ](https://github.com/LINOSNCHENA/DOTNET-Exercies/blob/master/UXVIEW/page3.png)
+ 
+![ Page #1 ](https://github.com/LINOSNCHENA/DOTNET-Exercies/blob/master/UXVIEW/page1.png)
+![ Page #2 ](https://github.com/LINOSNCHENA/DOTNET-Exercies/blob/master/UXVIEW/page2.png)
+![ Page #3 ](https://github.com/LINOSNCHENA/DOTNET-Exercies/blob/master/UXVIEW/page3.png)
