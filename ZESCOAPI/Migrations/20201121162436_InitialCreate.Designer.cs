@@ -9,7 +9,7 @@ using ZESCOAPI.Models;
 namespace ZESCOAPI.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20201120181520_InitialCreate")]
+    [Migration("20201121162436_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YJ32iJBEU8FgiQhrFvhhEj4vjq1g2cHkNp8xRSLlctqSI/U0QoRLPpMHBcKfXDyWrttU5cMAPY20YqfwzuAtAQ==",
+  "dgSpecHash": "oQ8LFeh9LKduowSpmqW/WOhxoYKbrEaOX+NDwlL10n+yceuNXBMSWMuUXQT4nj5tFYo86nt/yv9Wd00pN94CWA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\linos\\Downloads\\exercise1\\ZESCOAPI\\ZESCOAPI.csproj",
+  "projectFilePath": "C:\\Users\\linos\\Downloads\\zzzend222\\ZESCOAPI\\ZESCOAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\linos\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\linos\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.10\\microsoft.aspnetcore.jsonpatch.3.1.10.nupkg.sha512",
