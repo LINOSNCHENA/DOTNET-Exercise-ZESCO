@@ -39,7 +39,7 @@ namespace zanacoAPI.Migrations
 
                     b.HasKey("id");
 
-                    b.ToTable("Student");
+                    b.ToTable("Students");
                 });
 #pragma warning restore 612, 618
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EQA/yZeZ6k08xWdtdet4CvfyZiifjwXYY6mqYiXvuh5yzAeY4llUyrCLzC0m9m5YKNzz/SPX1ykNgvc95+vHUw==",
+  "dgSpecHash": "JJZ+DGGHTkvH74wR+CvWulJ9qn62p8yJ2GdmdnJSU6YhmM+ZYZd2vEi8lr8mhv48IL1mojme985+qqu8MvMxsA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\linos\\Downloads\\WORKER2001\\barclays\\zanacoAPI\\zanacoAPI.csproj",
+  "projectFilePath": "C:\\Users\\linos\\Downloads\\exercise1\\barclays\\zanacoAPI\\zanacoAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\linos\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
     "C:\\Users\\linos\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

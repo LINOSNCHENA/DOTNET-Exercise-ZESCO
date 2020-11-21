@@ -7,10 +7,11 @@ namespace zanacoAPI.Models
 {
     public class Student
     {
+        public int id { get; internal set; }
         public string Name { get; set; }
         public string Rollno { get; set; }
         public string Class { get; set; }
         public string Address { get; set; }
-        public int id { get; internal set; }
+        
     }
 }

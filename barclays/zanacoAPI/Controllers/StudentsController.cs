@@ -9,66 +9,78 @@ using zanacoAPI.Models;
 
 namespace zanacoAPI.Controllers
 {
-
-    // [Route("Api/Student")]
-
     [ApiController]
     [Route("[controller]")]
     public class StudentsController : ControllerBase
-
-    {
-            private readonly DatabaseContext _context;
-
-            public StudentsController(DatabaseContext context)
-            {
-                _context = context;
-            }
-
-
-       [Route("Studentdetails")]
-        [HttpGet]
-                 public ActionResult<List<Student>> Get()
+    {    private readonly DatabaseContext _context;
+        public StudentsController(DatabaseContext context)
         {
-      
-            var b = _context.Student.ToList();
-            return Ok(b);
+            _context = context;
         }
 
+// POST #1
+//https://localhost:44357/Students/studentAddition
 
-        [Route("AddotrUpdatestudent")]
+        [Route("StudentAddition")]
         [HttpPost]
         public ActionResult<Student> Post(Student employee)
         {
-            _context.Student.Add(employee);
+            _context.Students.Add(employee);
             _context.SaveChanges();
             return Ok(employee);
         }
 
+//  GET #2
+// https://localhost:44357/students/studentdetails
 
-
-
-        [Route("StudentdetailById")]
+        [Route("StudentDetails")]
         [HttpGet]
-         public ActionResult<List<Student>> Get(int id)
+        public ActionResult<List<Student>> Get()
         {
+            var b = _context.Students.ToList();
+            return Ok(b);
+        }
 
-            var zed3 = _context.Student.FirstOrDefault(x => x.id == id);
+//  GET ONE #3
+//  https://localhost:44357/students/StudentDetailById
+       
+     //   [Route("StudentDetailById")]
+     //     https://localhost:44357/students/studentdetails/4
+
+         [Route("StudentDetails/{id}")]
+        [HttpGet]
+        public ActionResult<List<Student>> Get(int id)
+        {
+            var zed3 = _context.Students.FirstOrDefault(x => x.id == id);
             return Ok(zed3);
         }
 
-        [Route("Deletestudent")]
-        [HttpDelete]
-        public object Deletestudent(int id)
+/// https://localhost:44357/students/1
+// DELETE #4
+            [HttpDelete("StudentDelete/{id}")]
+        public ActionResult<Student> Delete(int id)
         {
-            var emp4 = _context.Student.FirstOrDefault(a => a.id == id);
-            _context.Student.Remove(emp4);
+            var employeeInDb = _context.Students.FirstOrDefault(a => a.id == id);
+            _context.Students.Remove(employeeInDb);
             _context.SaveChanges();
-
-            return new Response
-            {
-                Status = "Delete",
-                Message = "Delete Successfuly"
-            };
+            return Ok(employeeInDb);
         }
+
+//  https://localhost:44357/students/DeleteStudent
+//  DELETE #5
+ 
+        [Route("StudentUpdate")]
+        [HttpPut]
+        public ActionResult<Student> Put(Student employee)
+        {
+            var employeeInDb = _context.Students.FirstOrDefault(a => a.id == employee.id);
+            employeeInDb.Name = employee.Name;
+            employeeInDb.Rollno = employee.Rollno;
+            employeeInDb.Class = employee.Class;
+            employeeInDb.Address = employee.Address;                       
+        _context.SaveChanges();
+            return Ok(employee);
+        }
+////////////////////////////////////////////////////////////////////////////////////////////
     }
 }
