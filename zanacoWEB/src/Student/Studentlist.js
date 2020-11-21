@@ -10,7 +10,8 @@ export default class Studentlist extends Component {
     }  
     componentDidMount(){  
      // debugger;  
-      axios.get('https://localhost:44357/students/studentdetails')  
+
+        axios.get('https://localhost:44362/students/studentdetails')  
         .then(response => {  
           this.setState({ business: response.data });  
         //  debugger;  

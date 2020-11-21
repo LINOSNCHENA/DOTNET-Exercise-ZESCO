@@ -13,9 +13,7 @@ Address:''
 }  
 }   
 Addstudent=()=>{  
-  axios.post('https://localhost:44357/Students/studentAddition/',
-  // https://localhost:44357/Students/studentAddition
-
+  axios.post('https://localhost:44362/students/studentAddition/',
   {Name:this.state.Name,RollNo:this.state.RollNo,  
   Class:this.state.Class, Address:this.state.Address})  
 .then(json => {  

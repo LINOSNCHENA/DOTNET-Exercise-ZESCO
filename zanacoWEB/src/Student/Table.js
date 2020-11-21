@@ -6,9 +6,9 @@ class Table extends Component {
   constructor(props) {  
     super(props);  
     }  
-      
-    DeleteStudent= () =>{  //https://localhost:44357/students/studentdetails/
-     axios.delete('https://localhost:44357/students/StudentDelete?id='+this.props.obj.Id)  
+  
+    DeleteStudent= () =>{  
+     axios.delete('https://localhost:44362/students/StudentDelete?id='+this.props.obj.Id)  
     .then(json => {  
     if(json.data.Status==='Delete'){  
     alert('Record deleted successfully!!');  

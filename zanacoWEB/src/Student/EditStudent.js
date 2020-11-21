@@ -21,8 +21,8 @@ class Edit extends React.Component {
         }  
     }  
   
-  componentDidMount() {  //https://localhost:44357/students/StudentDelete/8
-        axios.get('https://localhost:44357/students/studentdetails?id='+this.props.match.params.id)  
+  componentDidMount() { 
+        axios.get('https://localhost:44362/students/studentdetails?id='+this.props.match.params.id)  
           .then(response => {  
               this.setState({   
                 Name: response.data.Name,   
@@ -68,8 +68,8 @@ class Edit extends React.Component {
       Address: this.state.Address  
   
     };  
-    // https://localhost:44357/Students/studentAddition
-    axios.post('https://localhost:44357/students/studentAddition/', obj)  
+
+    axios.post('https://localhost:44362/students/studentAddition/', obj)  
         .then(res => console.log(res.data));  
         debugger;  
         this.props.history.push('/Studentlist')  

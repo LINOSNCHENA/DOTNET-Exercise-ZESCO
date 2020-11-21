@@ -5655,11 +5655,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\linos\\Downloads\\exercise1\\barclays\\zanacoAPI\\zanacoAPI.csproj",
+      "projectUniqueName": "C:\\Users\\linos\\Downloads\\zzzend222\\zanacoAPIb\\zanacoAPI.csproj",
       "projectName": "zanacoAPI",
-      "projectPath": "C:\\Users\\linos\\Downloads\\exercise1\\barclays\\zanacoAPI\\zanacoAPI.csproj",
+      "projectPath": "C:\\Users\\linos\\Downloads\\zzzend222\\zanacoAPIb\\zanacoAPI.csproj",
       "packagesPath": "C:\\Users\\linos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\linos\\Downloads\\exercise1\\barclays\\zanacoAPI\\obj\\",
+      "outputPath": "C:\\Users\\linos\\Downloads\\zzzend222\\zanacoAPIb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\linos\\AppData\\Roaming\\NuGet\\NuGet.Config",
