@@ -23,11 +23,11 @@ class DataTable extends Component {
     return <Table striped>
       <thead className="thead-dark">
         <tr>
-          <th>Id</th>
+          <th>No.</th>
           <th>Name</th>
           <th>Email</th>
-          <th>Document</th>
-          <th>Phone</th>
+          <th>OfficeNo.</th>
+          <th>MobileNo.</th>
           <th style={{ textAlign: "center" }}>Actions</th>
         </tr>
       </thead>

@@ -22,5 +22,5 @@ Update-Database
 
  Below are some screens shots from the application
 ![ Application Singleton Interface page #3 ](https://github.com/LINOSNCHENA/DOTNET-Exercies/blob/master/UXVIEW/page1.png)
-![ Application Singleton Interface page #3 ](https://github.com/LINOSNCHENA/DOTNET-Exercies/blob/master/UXVIEW/page1.png)
+![ Application Singleton Interface page #3 ](https://github.com/LINOSNCHENA/DOTNET-Exercies/blob/master/UXVIEW/page2.png)
 ![ Application Singleton Interface page #3 ](https://github.com/LINOSNCHENA/DOTNET-Exercies/blob/master/UXVIEW/page1.png)
