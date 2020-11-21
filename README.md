@@ -7,7 +7,8 @@ npm install --save bootstrap
 npm install --save reactstrap react react-dom
 
 # Backend
-pictureDB
+
+Installation PictureDB
 dotnet restore
 dotnet list package
 
