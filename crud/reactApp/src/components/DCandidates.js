@@ -48,7 +48,8 @@ const DCandidates = ({ classes, ...props }) => {
                                 <TableRow>
                                     <TableCell>Name</TableCell>
                                     <TableCell>Mobile</TableCell>
-                                    <TableCell>Blood Group</TableCell>
+                                    <TableCell>Department</TableCell>
+                                    {/* <TableCell>Blood Group</TableCell> */}
                                     <TableCell></TableCell>
                                 </TableRow>
                             </TableHead>

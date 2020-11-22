@@ -8211,11 +8211,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\linos\\Downloads\\ex6crud\\crud\\WebAPI\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\linos\\Downloads\\HOMEXERCIES\\crud\\WebAPI\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Users\\linos\\Downloads\\ex6crud\\crud\\WebAPI\\WebAPI\\WebAPI.csproj",
+      "projectPath": "C:\\Users\\linos\\Downloads\\HOMEXERCIES\\crud\\WebAPI\\WebAPI\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\linos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\linos\\Downloads\\ex6crud\\crud\\WebAPI\\WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\linos\\Downloads\\HOMEXERCIES\\crud\\WebAPI\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\linos\\AppData\\Roaming\\NuGet\\NuGet.Config",

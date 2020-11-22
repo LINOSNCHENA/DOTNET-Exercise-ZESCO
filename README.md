@@ -26,13 +26,15 @@ dotnet watch run
 Add-Migration "InitialCreate" \
 Update-Database
 
+
 ## Interface UX
-1. No editing zesco
-2. xx
-3. xx
+1. ZANACO - Rusangu
+2. ZESCO  - Lamia
+3. CRUD   - Corona Virus
 
  Below are some screens shots from the application
  
 ![ Page #1 ](https://github.com/LINOSNCHENA/DOTNET-Exercies/blob/master/UXVIEW/page1.png)
 ![ Page #2 ](https://github.com/LINOSNCHENA/DOTNET-Exercies/blob/master/UXVIEW/page2.png)
 ![ Page #3 ](https://github.com/LINOSNCHENA/DOTNET-Exercies/blob/master/UXVIEW/page3.png)
+![ Page #4 ](https://github.com/LINOSNCHENA/DOTNET-Exercies/blob/master/UXVIEW/page4.png)

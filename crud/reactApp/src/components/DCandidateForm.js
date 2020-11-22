@@ -118,18 +118,22 @@ const DCandidateForm = ({ classes, ...props }) => {
                         className={classes.formControl}
                         {...(errors.bloodGroup && { error: true })}
                     >
-                        <InputLabel ref={inputLabel}>Blood Group</InputLabel>
+                        <InputLabel ref={inputLabel}>Department Group</InputLabel>
+                        {/* //   <InputLabel ref={inputLabel}>Blood Group</InputLabel> */}
                         <Select
+                        //    name="Department"  //    
                             name="bloodGroup"
                             value={values.bloodGroup}
                             onChange={handleInputChange}
                             labelWidth={labelWidth}
                         >
-                            <MenuItem value="">Select Blood Group</MenuItem>
+                            <MenuItem value="">Select Department</MenuItem>
+                            {/* <MenuItem value="">Select Dept Group</MenuItem> */}
                             <MenuItem value="A+">A +ve</MenuItem>
                             <MenuItem value="A-">A -ve</MenuItem>
                             <MenuItem value="B+">B +ve</MenuItem>
                             <MenuItem value="B-">B -ve</MenuItem>
+                            <MenuItem value="Development"> Development</MenuItem>
                             <MenuItem value="AB+">AB +ve</MenuItem>
                             <MenuItem value="AB-">AB -ve</MenuItem>
                             <MenuItem value="O+">O +ve</MenuItem>

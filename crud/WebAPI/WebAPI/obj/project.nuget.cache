@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gEUf/k70qtRsuk6tW5b0A1/GcxS0fbvSm/ArAqUIH1fK1pdR8xhXPc3ZAmWIliNBOut0JdY1tiYSLkIjJuOojQ==",
+  "dgSpecHash": "tAMKnERgIeDM1RFDghH0caR6uk2sRio8VO8cncSytTPCDgdiWl7XU1rWlD1KZxTDA2OyOuzerwZe2KD1ZpCmkA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\linos\\Downloads\\ex6crud\\crud\\WebAPI\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\linos\\Downloads\\HOMEXERCIES\\crud\\WebAPI\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\linos\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
     "C:\\Users\\linos\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
