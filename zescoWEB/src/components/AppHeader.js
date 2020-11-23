@@ -35,7 +35,7 @@ class AppHeader extends Component { // 3
                     </NavItem>
                     <UncontrolledDropdown nav inNavbar>
                         <DropdownToggle nav caret>
-                            World
+                           ZESCO  World
                         </DropdownToggle>
                         <DropdownMenu right>
                             <DropdownItem href="/">For U</DropdownItem>

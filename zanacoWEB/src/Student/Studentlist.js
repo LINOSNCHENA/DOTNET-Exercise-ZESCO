@@ -1,4 +1,4 @@
-import React, { Component } from 'react';  
+import React, { Component } from 'react';
 import axios from 'axios';  
 import Table from './Table';  
   
@@ -27,6 +27,22 @@ export default class Studentlist extends Component {
           return <Table obj={object} key={i} />;  
       });  
     }  
+
+
+    tabzam(){
+      {this.state.business.map(item => {
+        return <tr key={item.id}>
+            <td>{item.id}</td>
+            <td>{item.name}</td>
+            <td>{item.rollno}</td>
+            <td>{item.class}</td>
+            <td>{item.address}</td>
+
+        </tr>
+    })}
+
+
+    }
   
     render() {  
       return (  
@@ -49,4 +65,4 @@ export default class Studentlist extends Component {
         </div>  
       );  
     }  
-  }  
+  } 
