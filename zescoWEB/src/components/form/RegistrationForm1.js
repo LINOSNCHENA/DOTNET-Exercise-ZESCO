@@ -3,7 +3,11 @@ import { Button, Form, FormGroup, Input, Label } from 'reactstrap';
 import { USERS_API_URL } from '../../constants';
 class RegistrationForm extends React.Component {
     state = {
-        id: 0,  name: '', document: '', email: '',  phone: ''
+        id: 0,
+        name: '',
+        document: '',
+        email: '',
+        phone: ''
     }
     componentDidMount() {
         if (this.props.user) {
@@ -58,21 +62,21 @@ class RegistrationForm extends React.Component {
     render() {
         return <Form onSubmit={this.props.user ? this.submitEdit : this.submitNew}>
             <FormGroup>
-                <Label for="name">Name:</Label>  <Input type="text" name="name" 
-                onChange={this.onChange} value={this.state.name === '' ? '' : this.state.name} />
+                <Label for="name">Name:</Label>
+                <Input type="text" name="name" onChange={this.onChange} value={this.state.name === '' ? '' : this.state.name} />
             </FormGroup>
             <FormGroup>
-                <Label for="document">MobileNo.:</Label>   <Input type="text" name="document" 
-                onChange={this.onChange} value={this.state.document === null ? '' : this.state.document} />
+                <Label for="document">Document:</Label>
+                <Input type="text" name="document" onChange={this.onChange} value={this.state.document === null ? '' : this.state.document} />
             </FormGroup>
             <FormGroup>
-                <Label for="email">Email:</Label><Input type="email" name="email" onChange={this.onChange}
-                 value={this.state.email === null ? '' : this.state.email} />
+                <Label for="email">Email:</Label>
+                <Input type="email" name="email" onChange={this.onChange} value={this.state.email === null ? '' : this.state.email} />
             </FormGroup>
             <FormGroup>
-                <Label for="phone">OfficeNo.:</Label> <Input type="text" name="phone" onChange={this.onChange}
-                 value={this.state.phone === null ? '' : this.state.phone}
-                    placeholder="+420-7743-48004" />
+                <Label for="phone">Phone:</Label>
+                <Input type="text" name="phone" onChange={this.onChange} value={this.state.phone === null ? '' : this.state.phone}
+                    placeholder="+1 999-999-9999" />
             </FormGroup>
             <Button>Send</Button>
         </Form>;

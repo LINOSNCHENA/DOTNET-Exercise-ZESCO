@@ -2,9 +2,13 @@ import React, { Component, Fragment } from 'react';
 import { Button, Modal, ModalHeader, ModalBody } from 'reactstrap';
 import RegistrationForm from './RegistrationForm';
 class RegistrationModal extends Component {
-    state = {    modal: false  }
+    state = {
+        modal: false
+    }
     toggle = () => {
-        this.setState(previous => ({  modal: !previous.modal }));
+        this.setState(previous => ({
+            modal: !previous.modal
+        }));
     }
     render() {
         const isNew = this.props.isNew;

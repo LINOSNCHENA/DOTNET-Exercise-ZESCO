@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { Table, Button } from 'reactstrap';
 import RegistrationModal from './form/RegistrationModal';
-import { URL1 } from '../services';
+import { USERS_API_URL } from '../constants';
 class DataTable extends Component {
   deleteItem = id => {
     let confirmDeletion = window.confirm('Do you really wish to delete it?');
     if (confirmDeletion) {
-      fetch(`${URL1}/${id}`, {
+      fetch(`${USERS_API_URL}/${id}`, {
         method: 'delete',
         headers: {
           'Content-Type': 'application/json'

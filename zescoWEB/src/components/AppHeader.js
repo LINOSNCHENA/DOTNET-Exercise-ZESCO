@@ -1,45 +1,33 @@
 import React, { Component } from 'react'; // 1
+import logo from '../zesco.png';
 import {
-    Navbar,
-    NavbarBrand,
-    NavbarToggler,
-    Collapse,
-    Nav,
-    NavItem,
-    NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem
-} from 'reactstrap'; // 2
-class AppHeader extends Component { // 3
-    state = { // 4
-        isOpen: false
-    };
-    toggle = this.toggle.bind(this); // 5
-    toggle() { // 6
+    Navbar, NavbarBrand, NavbarToggler, Collapse, Nav,
+    NavItem, NavLink, UncontrolledDropdown,
+    DropdownToggle, DropdownMenu, DropdownItem
+} from 'reactstrap';
+class AppHeader extends Component {
+    state = { isOpen: false };
+    toggle = this.toggle.bind(this);
+    toggle() {
         this.setState({
             isOpen: !this.state.isOpen
         })
     }
-    render() { // 7
+    render() {
         return <Navbar color="dark" dark expand="md">
             <NavbarBrand href="/">
-                <img src="https://cdn.rd.gt/assets/images/global/redgate-logo--white.svg?v=1" width="128" className="d-inline-block align-top" alt="" />
+                <img src={logo} />
+
             </NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
                 <Nav className="ml-auto" navbar>
-                    <NavItem>
-                        <NavLink href="/">Hello</NavLink>
-                    </NavItem>
+                    <NavItem> <NavLink href="/">Zesco link1</NavLink>   </NavItem>
                     <UncontrolledDropdown nav inNavbar>
-                        <DropdownToggle nav caret>
-                           ZESCO  World
-                        </DropdownToggle>
+                        <DropdownToggle nav caret>   ZESCO  World  </DropdownToggle>
                         <DropdownMenu right>
-                            <DropdownItem href="/">For U</DropdownItem>
-                            <DropdownItem>For Us</DropdownItem>
+                            <DropdownItem href="/">About Us link2</DropdownItem>
+                            <DropdownItem>Make a Booking link3</DropdownItem>
                         </DropdownMenu>
                     </UncontrolledDropdown>
                 </Nav>

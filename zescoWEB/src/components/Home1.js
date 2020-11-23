@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Col, Container, Row } from 'reactstrap';
 import DataTable from './DataTable';
 import RegistrationModal from './form/RegistrationModal';
-import { URL1 } from '../services';
+import { USERS_API_URL } from '../constants';
 class Home extends Component {
   state = {
     items: []
@@ -11,7 +11,7 @@ class Home extends Component {
     this.getItens();
   }
   getItens = () => {
-    fetch(URL1)
+    fetch(USERS_API_URL)
       .then(res => res.json())
       .then(res => this.setState({ items: res }))
       .catch(err => console.log(err));
@@ -32,7 +32,7 @@ class Home extends Component {
     return <Container style={{ paddingTop: "100px" }}>
       <Row>
         <Col>
-          <h3> ZANACO BANK CLIENTS LISTING IN ZESCO</h3>
+          <h3>My First React + ASP.NET CRUD React+ZESCO</h3>
         </Col>
       </Row>
       <Row>
