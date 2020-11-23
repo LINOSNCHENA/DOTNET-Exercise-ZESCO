@@ -16,7 +16,7 @@ class AppHeader extends Component {
     render() {
         return <Navbar color="dark" dark expand="md">
             <NavbarBrand href="/">
-                <img src={logo} />
+                <img src={logo}   alt="ZESCO LOGO MISSING"/>
 
             </NavbarBrand>
             <NavbarToggler onClick={this.toggle} />

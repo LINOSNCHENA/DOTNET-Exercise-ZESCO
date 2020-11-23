@@ -3,12 +3,12 @@ import { Button, Form, FormGroup, Input, Label } from 'reactstrap';
 import { URL1 } from '../../services';
 class RegistrationForm extends React.Component {
     state = {
-        id: 0,  name: '', document: '', email: '',  phone: ''
+        id: 0,  name: '', stars: '', email: '',  phone: ''
     }
     componentDidMount() {
         if (this.props.user) {
-            const { id, name, document, email, phone } = this.props.user
-            this.setState({ id, name, document, email, phone });
+            const { id, name, stars, email, phone } = this.props.user
+            this.setState({ id, name, stars, email, phone });
         }
     }
     onChange = e => {
@@ -23,7 +23,7 @@ class RegistrationForm extends React.Component {
             },
             body: JSON.stringify({
                 name: this.state.name,
-                document: this.state.document,
+                stars: this.state.stars,
                 email: this.state.email,
                 phone: this.state.phone
             })
@@ -44,7 +44,7 @@ class RegistrationForm extends React.Component {
             },
             body: JSON.stringify({
                 name: this.state.name,
-                document: this.state.document,
+                stars: this.state.stars,
                 email: this.state.email,
                 phone: this.state.phone
             })
@@ -58,19 +58,19 @@ class RegistrationForm extends React.Component {
     render() {
         return <Form onSubmit={this.props.user ? this.submitEdit : this.submitNew}>
             <FormGroup>
-                <Label for="name">Name:</Label>  <Input type="text" name="name" 
+                <Label for="name">Name :</Label>  <Input type="text" name="name" 
                 onChange={this.onChange} value={this.state.name === '' ? '' : this.state.name} />
             </FormGroup>
             <FormGroup>
-                <Label for="document">MobileNo.:</Label>   <Input type="text" name="document" 
-                onChange={this.onChange} value={this.state.document === null ? '' : this.state.document} />
+                <Label for="stars">Status :</Label>   <Input type="text" name="stars" 
+                onChange={this.onChange} value={this.state.stars === null ? '' : this.state.stars} />
             </FormGroup>
             <FormGroup>
-                <Label for="email">Email:</Label><Input type="email" name="email" onChange={this.onChange}
+                <Label for="email">Email :</Label><Input type="email" name="email" onChange={this.onChange}
                  value={this.state.email === null ? '' : this.state.email} />
             </FormGroup>
             <FormGroup>
-                <Label for="phone">OfficeNo.:</Label> <Input type="text" name="phone" onChange={this.onChange}
+                <Label for="phone"> Phone :</Label> <Input type="text" name="phone" onChange={this.onChange}
                  value={this.state.phone === null ? '' : this.state.phone}
                     placeholder="+420-7743-48004" />
             </FormGroup>

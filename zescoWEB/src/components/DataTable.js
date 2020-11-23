@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import { Table, Button } from 'reactstrap';
 import RegistrationModal from './form/AddOrEditBanker';
 import { URL1 } from '../services';
+
 class DataTable extends Component {
+  
   deleteItem = id => {
     let confirmDeletion = window.confirm('Do you really wish to delete it?');
     if (confirmDeletion) {
@@ -26,15 +28,15 @@ class DataTable extends Component {
           <th>No.</th>
           <th>Name</th>
           <th>Email</th>
-          <th>OfficeNo.</th>
-          <th>MobileNo.</th>
+          <th>Phone</th>
+          <th>Status </th>
           <th style={{ textAlign: "center" }}>Actions</th>
         </tr>
       </thead>
       <tbody>
         {!items || items.length <= 0 ?
           <tr>
-            <td colSpan="6" align="center"><b>No Users yet</b></td>
+            <td colSpan="6" align="center"><b>... no users found ... </b></td>
           </tr>
           : items.map(item => (
             <tr key={item.id}>
@@ -48,10 +50,10 @@ class DataTable extends Component {
                 {item.email}
               </td>
               <td>
-                {item.document}
+                {item.phone}
               </td>
               <td>
-                {item.phone}
+                {item.stars}
               </td>
               <td align="center">
                 <div>

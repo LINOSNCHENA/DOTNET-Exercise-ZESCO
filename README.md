@@ -3,7 +3,7 @@
 ## Techechnology stack 
  
 1. Backend    - APS.NET
-2. FrontEnd1  - React 
+2. FrontEnd1  - React +16
 3. FrontEnd2  - Angular +10
 
 ## Execution commands
@@ -28,9 +28,9 @@ Update-Database
 
 
 ## Interface UX
-1. ZANACO - Rusangu
-2. ZESCO  - Lamia
-3. CRUD   - Corona Virus
+1. ZANACO - Rusangu(5+2)
+2. ZESCO  - Lamia(5+2)
+3. CRUD   - Virus(5+2)
 
  Below are some screens shots from the application
  

@@ -3,7 +3,8 @@ import { Col, Container, Row } from 'reactstrap';
 import DataTable from './DataTable';
 import RegistrationModal from './form/AddOrEditBanker';
 import { URL1 } from '../services';
-class Home extends Component {
+
+class HomePage extends Component {
   state = {
     items: []
   }
@@ -32,7 +33,7 @@ class Home extends Component {
     return <Container style={{ paddingTop: "100px" }}>
       <Row>
         <Col>
-        <h3 class="headerzanaco">     ZANACO BANK CLIENTS LISTING IN ZESCO</h3>
+        <h3 className="headerzanaco">     ZANACO BANK CLIENTS LISTING IN ZESCO</h3>
         </Col>
       </Row>
       <Row>
@@ -51,4 +52,4 @@ class Home extends Component {
     </Container>;
   }
 }
-export default Home;
+export default HomePage;
