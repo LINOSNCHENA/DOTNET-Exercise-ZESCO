@@ -14,9 +14,7 @@ class DataTable extends Component {
           'Content-Type': 'application/json'
         }
       })
-        .then(res => {
-          this.props.deleteItemFromState(id);
-        })
+        .then(res => { this.props.deleteItemFromState(id); })
         .catch(err => console.log(err));
     }
   }
@@ -40,21 +38,11 @@ class DataTable extends Component {
           </tr>
           : items.map(item => (
             <tr key={item.id}>
-              <th scope="row">
-                {item.id}
-              </th>
-              <td>
-                {item.name}
-              </td>
-              <td>
-                {item.email}
-              </td>
-              <td>
-                {item.phone}
-              </td>
-              <td>
-                {item.stars}
-              </td>
+              <th scope="row">  {item.id} </th>
+              <td> {item.name}  </td>
+              <td> {item.email} </td>
+              <td> {item.phone} </td>
+              <td>  {item.stars} </td>
               <td align="center">
                 <div>
                   <RegistrationModal

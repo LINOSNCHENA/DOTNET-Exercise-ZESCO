@@ -34,7 +34,7 @@ Update-Database
 
  Below are some screens shots from the application
  
-![ Page #1 ](https://github.com/LINOSNCHENA/DOTNET-Exercies/blob/master/UXVIEW/page1.png)
-![ Page #2 ](https://github.com/LINOSNCHENA/DOTNET-Exercies/blob/master/UXVIEW/page2.png)
-![ Page #3 ](https://github.com/LINOSNCHENA/DOTNET-Exercies/blob/master/UXVIEW/page3.png)
-![ Page #4 ](https://github.com/LINOSNCHENA/DOTNET-Exercies/blob/master/UXVIEW/page4.png)
+![ Page #1 ](https://github.com/LINOSNCHENA/DOTNET-Exercise-ZESCO/blob/master/UXVIEW/page1.png)
+![ Page #2 ](https://github.com/LINOSNCHENA/DOTNET-Exercise-ZESCO/blob/master/UXVIEW/page2.png)
+![ Page #3 ](https://github.com/LINOSNCHENA/DOTNET-Exercise-ZESCO/blob/master/UXVIEW/page3.png)
+![ Page #4 ](https://github.com/LINOSNCHENA/DOTNET-Exercise-ZESCO/blob/master/UXVIEW/page4.png)
