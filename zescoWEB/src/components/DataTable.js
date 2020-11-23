@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Table, Button } from 'reactstrap';
-import RegistrationModal from './form/RegistrationModal';
+import RegistrationModal from './form/AddOrEditBanker';
 import { URL1 } from '../services';
 class DataTable extends Component {
   deleteItem = id => {

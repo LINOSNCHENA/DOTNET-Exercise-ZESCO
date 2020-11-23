@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Col, Container, Row } from 'reactstrap';
 import DataTable from './DataTable';
-import RegistrationModal from './form/RegistrationModal';
+import RegistrationModal from './form/AddOrEditBanker';
 import { URL1 } from '../services';
 class Home extends Component {
   state = {
@@ -32,7 +32,7 @@ class Home extends Component {
     return <Container style={{ paddingTop: "100px" }}>
       <Row>
         <Col>
-          <h3> ZANACO BANK CLIENTS LISTING IN ZESCO</h3>
+        <h3 class="headerzanaco">     ZANACO BANK CLIENTS LISTING IN ZESCO</h3>
         </Col>
       </Row>
       <Row>
