@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\linos\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\linos\\.nuget\\packages"
-    ]
-  }
-}

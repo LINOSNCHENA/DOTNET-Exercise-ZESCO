@@ -18,14 +18,13 @@ Backend
 
 dotnet restore
 dotnet list package
+
+Add-Migration "InitialPemba" 
+Update-Database
+
 dotnet watch run
 
 ```
-# Database
-
-Add-Migration "InitialCreate" \
-Update-Database
-
 
 ## Interface UX
 1. ZANACO - Rusangu(5+2)
