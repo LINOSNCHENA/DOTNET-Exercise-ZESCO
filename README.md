@@ -22,12 +22,13 @@ dotnet list package
 Add-Migration "InitialPemba" 
 Update-Database
 
-dotnet watch run
+
 dotnet --version
 dotnet --info
 
 dotnet build
 dotnet run
+dotnet watch run
 dotnet test, dotnet publish
 
 ```
